@@ -9,7 +9,6 @@ export class DataProviderService {
   
   readonly apiURL="assets";
   public observer:Observable<Object>;
-  emailChange: Subject<Object> = new Subject<Object>();
   constructor(private http:HttpClient) { }
 
   getTechnologies(){
